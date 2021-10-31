@@ -1,0 +1,20 @@
+{
+	"name": "weather-chart-be",
+	"version": "1.0.0",
+	"description": "Vivsoft test weather chart backend API",
+	"main": "index.js",
+	"repository": "https://github.com/ajaykumar-bg/weather-chart-api",
+	"author": "ajaykumar-bg",
+	"license": "MIT",
+	"scripts": {
+		"start": "nodemon index.js"
+	},
+	"dependencies": {
+		"axios": "^0.23.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.14"
+	}
+}
